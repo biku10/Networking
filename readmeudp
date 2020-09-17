@@ -1,0 +1,13 @@
+Server :
+•	Import the necessary libraries (socket).
+•	Create a TCP/IP socket.
+•	Get the host name and set a port number.
+•	Get the buffer size and message to be sent.
+•	Once the address (here the local host) is received, a connection is established and the message is sent.
+•	Close the connection after sending the message.
+Client :
+•	Import the required libraries (socket).
+•	Create a UDP socket.
+•	Get the host name and enter the port number.
+•	After the connection has been established, data sent from the server can be received using recv(). 
+•	Display the received message and close the connection. 

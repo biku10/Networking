@@ -1,0 +1,19 @@
+Server :
+•	Import the necessary libraries (socket and datetime).
+•	Create a TCP/IP socket.
+•	Get the host name and set a port number.
+•	Associate the socket with the server address using bind().
+•	Put the socket into server mode with the help of listen() and wait for an incoming connection from the client.
+•	Once the address (here the local host) is received, a connection is established and the message is sent.
+•	Receive the request for the current date and time from the client using recv().
+•	Get the current date and time separately using the datetime.date(), datetime.time() and datetime.now() functions.
+•	Close the connection after sending the messages.
+
+Client :
+•	Import the required libraries (socket).
+•	Create a TCP/IP socket.
+•	Get the host name and enter the port number.
+•	Attach the socket directly to the remote address using connect(), thereby establishing a connection.
+•	After the connection has been established, data sent from the server can be received using recv(). 
+•	Send a request to obtain the current date and time using send().
+•	Display the received messages and close the connection.
